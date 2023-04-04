@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8">
+    </head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            width: 100%;
+            height: 87px;
+            margin-top: 33px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #header a {
+            margin-top: 27px;
+            color: black;
+            text-decoration: none;
+        }
+        #header a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        #header img {
+            width: 232px;
+            height: 53px;
+            margin-top: 0px;
+        }
+        #main_picture {
+            height: 464px;
+            display: flex;
+        }
+        #main_picture img{
+            max-width: 100%;
+            flex-grow: 1;
+        }
+        .icon_title_text {
+            padding-top: 15px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .icon_title_text::first-line {
+            font-size: 10px;
+            font-weight: normal;
+        }
+        .icon_box {
+            width: 1240px;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .icon_box p {
+            width: 250px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 25px;
+            text-align: center;
+            border-bottom: dotted gray;
+        }
+        .chefs {
+            height: 304px;
+            margin-top: 15px;
+            background-color: lightgrey;
+        }
+        .chefs div {
+            width: 814px;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .chefs p {
+            width: 500px;
+            height: 100px;
+            font-size: 13px;
+            line-height: 25px;
+            font-weight: bold;
+        }
+    </style>
+    <body>
+        <div id="header">
+            <a href="#", target="_self">How it works</a>
+            <a href="#", target="_self">Gifts</a>
+            <a href="about.html", target="_self">About</a>
+            <img src="logo.png" >
+            <a href="#", target="_self">Login</a>
+            <a href="#", target="_self">Members</a>
+            <a href="#", target="_self">Contacts</a>
+        </div>
+        <div id="main_picture"><img src="main.png"></div>
+        <div>
+            <p class="icon_title_text">"WHAT'S FOR DINNER"<br>FINALLY HAS AN<br>EASY ANSWER</p>
+            <div class="icon_box">
+                <p><img src="icon1.png" ><br>asdfsdfasdfasdfasdfasdfasdf sadf<br>asdfsadf asdf sdaf sadf sdf sadf a asdf<br>asdf asdf sdf</p>
+                <p><img src="icon2.png" ><br>asdfsdfasdfasdfasdfasdfasdf sadf<br>asdfsadf asdf sdaf sadf sdf sadf a asdf<br>asdf asdf sdf</p>
+                <p><img src="icon3.png" ><br>asdfsdfasdfasdfasdfasdfasdf sadf<br>asdfsadf asdf sdaf sadf sdf sadf a asdf<br>asdf asdf sdf</p>
+                <p><img src="icon4.png" ><br>asdfsdfasdfasdfasdfasdfasdf sadf<br>asdfsadf asdf sdaf sadf sdf sadf a asdf<br>asdf asdf sdf</p>
+            </div>
+        </div>
+        <div class="chefs">
+            <div>
+                <p>asdfasdfsdf<br>as;dlfkf;lkd sa jf;lka d;lka sj d;flkj ldkaj;lsd kfjas;ldkfjlsasdfs adfdsadfa<br>sdfdkfj a;lsdkfj;a sdfsad sadfsadff asdfasdfas dfasdfas dfasdfa<br>sdfasdfasdf asdfasdfasdfasdfasd fasdfasdf</p>
+                <img src="chef.png">
+            </div>
+        </div>
+    </body>
+</html>
